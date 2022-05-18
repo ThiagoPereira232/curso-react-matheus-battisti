@@ -1,22 +1,16 @@
 import './App.css';
 import HelloWord from './components/HelloWord'
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
 
 function App() {
-  const name = "Thiago  "
-
-  function sum(a, b){
-    return a+b
-  }
-
-  const url = "https://via.placeholder.com/150"
 
   return (
     <div className="App">
-      <h1>Olá React</h1>
-      <p>Olá, {name}</p>
-      <p>{sum(1,2)}</p>
-      <img src={url} alt="Minha imagem"/>
       <HelloWord/>
+      <SayMyName nome="Thiago" />
+      <SayMyName nome="Maria" />
+      <Pessoa nome="Rodrigo" idade="28" profissao="Programar" foto="https://via.placeholder.com/150" />
     </div>
   );
 }
