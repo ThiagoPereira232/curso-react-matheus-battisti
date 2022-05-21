@@ -1,16 +1,15 @@
 import './App.css';
-import Condicional from './components/Condicional'
-import OutraLista from './components/OutraLista'
+import { useState } from 'react'
+import SeuNome from './components/SeuNome'
+import Saudacao from './components/Saudacao'
 
 function App() {
-
-  const meusItens = ['item1', 'item2', 'item3']
+  const [nome, setNome] = useState()
 
   return (
     <div className="App">
-      <Condicional />
-      <OutraLista items={meusItens}/>
-      <OutraLista items={[]}/>
+      <SeuNome setNome={setNome} />
+      <Saudacao nome={nome} />
     </div>
   );
 }
