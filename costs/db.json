@@ -18,8 +18,27 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 375,
+      "services": [
+        {
+          "name": "as",
+          "cost": "33",
+          "description": "as",
+          "id": "c334a9cd-362b-417d-ac92-406cc5838b1e"
+        },
+        {
+          "name": "as",
+          "cost": "333",
+          "description": "as",
+          "id": "d0e464f8-62b0-4ac4-b356-4e3ef50da392"
+        },
+        {
+          "name": "thiagopereira232",
+          "cost": "009",
+          "description": "fdafs",
+          "id": "5451c13e-61d6-4ff4-91b1-f638d75e8470"
+        }
+      ],
       "id": 4
     }
   ],
